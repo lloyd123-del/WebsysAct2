@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li class="home_logo">
+                    <img src="images/home_logo.png" alt="home_logo" class="home_img_size">
+                    <img src="images/home_logo_hover.png" alt="home_logo" class="home_img_size_hover">
+                    <h3>Logo</h3>
+                </li>
+                <li class="other_logo_container">
+                    <img src="images/world_logo.png" alt="world_logo" class="logo_img_header">
+                    <img src="images/world_logo_hover.png" alt="world_logo"  class="logo_img_header_hover">
+                </li>
+                <li class="other_logo_container">
+                    <img src="images/person_logo.png" alt="person_logo" class="logo_img_header">
+                    <img src="images/person_logo_hover.png" alt="person_logo" class="logo_img_header_hover">
+
+                </li>
+                <li class="other_logo_container">
+                    <img src="images/message_logo.png" alt="person_logo" class="logo_img_header">
+                    <img src="images/message_logo_hover.png" alt="person_logo" class="logo_img_header_hover">
+                </li>
+                <li class="noti_container" id="notification">
+                    <img src="images/notification_logo.png" alt="person_logo" id="logo_img_header_noti" class="logo_img_header_noti">
+                    <img src="images/notification_logo_hover.png" alt="person_logo" id="logo_img_header_noti_hover" class="logo_img_header_noti_hover">
+                </li>
+            </ul>
+            <div class="profile_picture_container">
+                <img src="images/profile_picture.png" alt="profile_picture" class="profile_img_size">
+            </div>
+        </nav>
+    </header>
+
+    <div id="notification_hover" class="notification_hover">
+        <ul class="notification_message_container">
+            <li>
+                <p>One new friend request</p>
+            </li>
+            <li>
+                <p>John Doe posted on your wall</p>
+            </li>
+            <li>
+                <p>Jane likes your post</p>
+            </li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="column_1">
+            <div class="profile_column">
+                <p>My Profile</p>
+                    <img src="images/JL Prof.jpg" alt="avatar" class="avatar">
+                    <h2>John Lloyd Angeles</h2>
+                <hr class="column_line">
+                <div class="logo_container">
+                    <p>
+                        <img src="images/pensil_logo.png" alt="pensil_logo" class="profile_img_size_logo">
+                        Designer, UI
+                    </p>
+                    <p>
+                        <img src="imagest/coloum_house_logo.png" alt="pensil_logo" class="profile_img_size_logo">
+                        CDO, Philippines
+                    </p>
+                    <p>
+                        <img src="images/cake.png" alt="pensil_logo" class="profile_img_size_logo">
+                        December 13, 2004
+                    </p>
+                </div>
+            </div>
+            <div class="button_container">
+                <button id="my_group">
+                    <img src="imagest/my_group.png" alt="my_group" class="not_hover">
+                    <img src="images/my_group_hover.png" alt="my_group" class="button_hover">
+                    <p>My Groups</p>
+                </button>
+                <div id="my_group_clicked">
+                    <p>Some text..</p>
+                </div>
+                <button id="my_event">
+                    <img src="images/my_event_logo.png" alt="my_group" class="not_hover">
+                    <img src="images/my_event_logo_hover.png" alt="my_group" class="button_hover">
+                    <p>My Events</p>
+                </button>
+                <div id="my_event_clicked">
+                    <p>Some other text..</p>
+                </div>
+                <button id="my_photos">
+                    <img src="images/my_photos.png" alt="my_group" class="not_hover">
+                    <img src="images/my_photos_hover.png" alt="my_group" class="button_hover">
+                    <p>My Photos</p>
+                </button>
+                <div id="my_photos_clicked">
+                    <div class="my_photo_cls">
+                        <img src="images/lights.jpg" alt="lights">
+                        <img src="images/nature.jpg" alt="nature">
+                        <img src="images/mountains.jpg" alt="nature">
+                        <img src="images/forest.jpg" alt="nature">
+                        <img src="images/nature (1).jpg" alt="nature">
+                        <img src="images/snow.jpg" alt="nature">
+                    </div>
+                </div>
+            </div>
+            <div class="interest_container">
+                <p>Interest</p><br>
+                <div>
+                    <p class="news">News</p>
+                    <p class="W3Schools">W3Schools</p>
+                    <p class="labels">Labels</p>
+                    <p class="games">Games</p>
+                    <p class="friend">Friends</p>
+                    <p class="Music">Music</p>
+                    <p class="Friends1">Friends</p>
+                    <p class="food">Food</p>
+                    <p class="design">Design</p>
+                    <p class="art">Art</p>
+                    <p class="photos">Photos</p>
+                </div>
+            </div>
+            <div id="notifications" class="notification">
+                <div>
+                    <h2>Hey!</h2>
+                    <button id="close_btn">&times;</button>
+                </div>
+                <div class="center">
+                    <p>People are looking at your profile. Find out who.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column_2">
+            <div class="_1st_column_container_two">
+                <p>Social Media template by w3.css</p>
+                <input type="text" value="Status: Feeling Blue" class="status">
+                <button>
+                    <img src="images/post_logo.png" alt="post_logo" class="not_hover">
+                    <img src="images/post_logo_hover.png" alt="post_logo" class="is_hover">
+                    Post
+                </button>
+            </div>
+            <div class="_2nd_column_container_two">
+                <div class="profile_top_column">
+                    <div class="profile_details">
+                        <img src="images/JL Prof.jpg" alt="profile picture">
+                        <p>John Lloyd Angeles</p>
+                    </div>
+                    <p>1 min</p>
+                </div>
+                <hr/>
+                <p class="caption_text"> I'm John Lloyd Angeles (JL), an enthusiastic IT student with a passion for web development, particularly in front-end design. </p>
+                <div class="post_picture">
+                    <img src="images/lights.jpg" alt="lights">
+                    <img src="images/nature (1).jpg" alt="mountains">
+                </div>
+
+                <div class="react_button_cointainer">
+                    <button>
+                        <img src="images/like_logo.png" alt="like logo" class="like_not_hover">
+                        <img src="images/like_logo_hover.png" alt="like logo" class="like_is_hover">
+                        Like
+                    </button>
+                    <button>
+                        <img src="images/comment_logo.png" alt="comment logo" class="comment_not_hover">
+                        <img src="images/comment_logo_hover.png" alt="comment logo" class="comment_is_hover">
+                        Comment
+                    </button>
+                </div>
+            </div>
+
+            <div class="_2nd_column_container_two">
+                <div class="profile_top_column">
+                    <div class="profile_details">
+                        <img src="images/avatar2.png" alt="profile picture">
+                        <p>Jane Doe</p>
+                    </div>
+                    <p>16 min</p>
+                </div>
+                <hr/>
+                <p class="caption_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio voluptatum cupiditate impedit iusto facere a commodi ullam? Rem molestias odio doloremque commodi saepe. Asperiores nesciunt exercitationem ipsa quibusdam voluptates.</p>
+
+                <div class="react_button_cointainer">
+                    <button>
+                        <img src="images/like_logo.png" alt="like logo" class="like_not_hover">
+                        <img src="images/like_logo_hover.png" alt="like logo" class="like_is_hover">
+                        Like
+                    </button>
+                    <button>
+                        <img src="images/comment_logo.png" alt="comment logo" class="comment_not_hover">
+                        <img src="images/comment_logo_hover.png" alt="comment logo" class="comment_is_hover">
+                        Comment
+                    </button>
+                </div>
+            </div>
+            
+            <div class="_2nd_column_container_two">
+                <div class="profile_top_column">
+                    <div class="profile_details">
+                        <img src="images/avatar3.png" alt="profile picture">
+                        <p>Angie Jane</p>
+                    </div>
+                    <p>32 min</p>
+                </div>
+                <hr/>
+                <p class="caption_text">Have you seen this?</p>
+
+                <div class="post_picture2">
+                    <img src="images/nature (1).jpg" alt="mountains">
+                </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+                <div class="react_button_cointainer">
+                    <button>
+                        <img src="images/like_logo.png" alt="like logo" class="like_not_hover">
+                        <img src="images/like_logo_hover.png" alt="like logo" class="like_is_hover">
+                        Like
+                    </button>
+                    <button>
+                        <img src="images/comment_logo.png" alt="comment logo" class="comment_not_hover">
+                        <img src="images/comment_logo_hover.png" alt="comment logo" class="comment_is_hover">
+                        Comment
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="column_3">
+            <div class="_3rd_column_container_clm_3">
+                <p>Upcoming Events:</p>
+                <img src="images/forest.jpg" alt="forest" class="forest">
+                <p class="text_type">Holiday</p>
+                <p>Friday 15:00</p>
+                <button>Info</button>
+            </div>
+
+            <div class="_3rd_column_container_clm_3">
+                <p>Friend Request</p>
+                <img src="images/avatar3.png" alt="avatar3" class="avatar3">
+                <p>Jane Doe</p>
+                <div class="confirm_button_container">
+                    <button class="confirm_btn">
+                        <img src="images/confirm_logo.png" alt="confirm_logo" class="confirm_not_hover">
+                        <img src="images/confirm_logo_hover.png" alt="confirm_logo" class="confirm_is_hover">
+                    </button>
+                    <button class="cancel_btn">
+                        <img src="images/cancel_logo.png" alt="cancel_logo" class="cancel_not_hover">
+                        <img src="images/cancel_logo_hover.png" alt="cancel_logo" class="cancel_is_hover">
+                    </button>
+                </div>
+            </div>
+
+            <div class="_3rd_column_container_clm_3">
+                <div class="ads_container">
+                    <p>ADS</p>
+                </div>
+            </div>
+
+            <div class="_3rd_column_container_clm_3">
+                <div class="ads_container">
+                    <img src="images/bug_logo.png" alt="bug logo">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="footer_p">Footer</p>
+        <p class="footer_p2">
+            Powered by
+            <a href="https://www.w3schools.com/w3css/default.asp">
+                w3.css
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
